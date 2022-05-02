@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Helvetica, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  background: radial-gradient(#6a3793, #340e52);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header ul li a {
+  padding: 0px 20px 0px 20px;
+  font-weight: 100;
+}
+
+header ul li a:hover {
+  background-color: #ff8bd9;
+  border-radius: 5px;
+  color: #340e52;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 62px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  padding: 0px 0px 20px 0px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+img {
+  max-width: 10%;
+}
+
+.container {
+  max-width: 900px;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 auto;
+}
+
+#form {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+#form input {
+  width: 60%;
+  background-color: #e9e8e8;
+  padding: 5px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.formtitle {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+button {
+  width: 60%;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #ff8bd9;
+  padding: 5px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
+  transition: all 300ms ease-out;
+}
+
+button:hover {
+  background-color: #6a3793;
+  color: #ff8bd9;
+}
+
+#rodape {
+  font-size: 12px;
+  font-weight: 100;
+  padding: 0px 0px 40px 0px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+    line-height: 1.5rem;
+  }
+
+  h2 {
+    font-size: 20;
+  }
+
+  .container {
+    font-size: 16px;
+    padding: 0px 20px;
+  }
+
+  #rodape {
+    font-size: 15px;
+    line-height: 1.5rem;
+    padding: 0px 20px;
+  }
+
+  header ul li a {
+    padding: 0px 10px;
+    font-weight: 100;
+    font-size: 16px;
+  }
+
+  #navprimaria {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  #navprimaria #logo img {
+    max-width: 20%;
+    align-self: flex-start;
+  }
+
+  #form {
+    max-width: 100%;
+    margin: 20px auto;
+  }
+
+  #form input {
+    width: 90%;
+  }
+
+  button {
+    width: 90%;
+  }
+}
